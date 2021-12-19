@@ -34,7 +34,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\DigiturkTest.Service.csproj": {
+                "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\DigiturkTest.Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +64,274 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Common\\DigiturkTest.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Common\\DigiturkTest.Common.csproj",
+        "projectName": "DigiturkTest.Common",
+        "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Common\\DigiturkTest.Common.csproj",
+        "packagesPath": "C:\\Users\\Ertuğrul Güler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ertuğrul Güler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\work\\acqua-repos\\packages2": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/topkapi-as/_packaging/PlatformCoreFeed/nuget/v3/index.json": {},
+          "https://www.npmjs.com/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj": {
+                "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FakeData": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj",
+        "projectName": "DigiturkTest.Data",
+        "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj",
+        "packagesPath": "C:\\Users\\Ertuğrul Güler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ertuğrul Güler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\work\\acqua-repos\\packages2": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/topkapi-as/_packaging/PlatformCoreFeed/nuget/v3/index.json": {},
+          "https://www.npmjs.com/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Repository\\DigiturkTest.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Repository\\DigiturkTest.Repository.csproj",
+        "projectName": "DigiturkTest.Repository",
+        "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Repository\\DigiturkTest.Repository.csproj",
+        "packagesPath": "C:\\Users\\Ertuğrul Güler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ertuğrul Güler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\work\\acqua-repos\\packages2": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/topkapi-as/_packaging/PlatformCoreFeed/nuget/v3/index.json": {},
+          "https://www.npmjs.com/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Common\\DigiturkTest.Common.csproj": {
+                "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Common\\DigiturkTest.Common.csproj"
+              },
+              "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj": {
+                "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\DigiturkTest.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\DigiturkTest.Service.csproj",
+        "projectName": "DigiturkTest.Service",
+        "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\DigiturkTest.Service.csproj",
+        "packagesPath": "C:\\Users\\Ertuğrul Güler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ertuğrul Güler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\work\\acqua-repos\\packages2": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/topkapi-as/_packaging/PlatformCoreFeed/nuget/v3/index.json": {},
+          "https://www.npmjs.com/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj": {
+                "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Data\\DigiturkTest.Data.csproj"
+              },
+              "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Repository\\DigiturkTest.Repository.csproj": {
+                "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Repository\\DigiturkTest.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

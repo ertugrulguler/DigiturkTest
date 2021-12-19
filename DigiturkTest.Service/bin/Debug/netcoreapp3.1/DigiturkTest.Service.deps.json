@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DigiturkTest.Service/1.0.0": {
+        "dependencies": {
+          "DigiturkTest.Data": "1.0.0",
+          "DigiturkTest.Repository": "1.0.0"
+        },
+        "runtime": {
+          "DigiturkTest.Service.dll": {}
+        }
+      },
+      "FakeData/1.0.0": {
+        "runtime": {
+          "lib/FakeData.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DigiturkTest.Common/1.0.0": {
+        "dependencies": {
+          "DigiturkTest.Data": "1.0.0",
+          "FakeData": "1.0.0"
+        },
+        "runtime": {
+          "DigiturkTest.Common.dll": {}
+        }
+      },
+      "DigiturkTest.Data/1.0.0": {
+        "runtime": {
+          "DigiturkTest.Data.dll": {}
+        }
+      },
+      "DigiturkTest.Repository/1.0.0": {
+        "dependencies": {
+          "DigiturkTest.Common": "1.0.0",
+          "DigiturkTest.Data": "1.0.0"
+        },
+        "runtime": {
+          "DigiturkTest.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DigiturkTest.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FakeData/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hHp5a569gbVo7Fg/whOeDSFExhaB/cidqDTUTFxQDphsMeQhuS0AEyxfg1WunJz5W4ZOPdwEqhQJqEfUCnl9Ow==",
+      "path": "fakedata/1.0.0",
+      "hashPath": "fakedata.1.0.0.nupkg.sha512"
+    },
+    "DigiturkTest.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DigiturkTest.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DigiturkTest.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

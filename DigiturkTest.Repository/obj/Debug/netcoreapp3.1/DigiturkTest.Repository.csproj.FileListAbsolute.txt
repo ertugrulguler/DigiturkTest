@@ -1,0 +1,14 @@
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\bin\Debug\netcoreapp3.1\DigiturkTest.Repository.deps.json
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\bin\Debug\netcoreapp3.1\DigiturkTest.Repository.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\bin\Debug\netcoreapp3.1\DigiturkTest.Repository.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\bin\Debug\netcoreapp3.1\DigiturkTest.Common.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\bin\Debug\netcoreapp3.1\DigiturkTest.Data.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\bin\Debug\netcoreapp3.1\DigiturkTest.Common.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\bin\Debug\netcoreapp3.1\DigiturkTest.Data.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\obj\Debug\netcoreapp3.1\DigiturkTest.Repository.csproj.AssemblyReference.cache
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\obj\Debug\netcoreapp3.1\DigiturkTest.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\obj\Debug\netcoreapp3.1\DigiturkTest.Repository.AssemblyInfoInputs.cache
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\obj\Debug\netcoreapp3.1\DigiturkTest.Repository.AssemblyInfo.cs
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\obj\Debug\netcoreapp3.1\DigiturkTest.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\obj\Debug\netcoreapp3.1\DigiturkTest.Repository.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Repository\obj\Debug\netcoreapp3.1\DigiturkTest.Repository.pdb

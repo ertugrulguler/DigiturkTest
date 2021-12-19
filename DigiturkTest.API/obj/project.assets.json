@@ -1,11 +1,109 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "FakeData/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/FakeData.dll": {}
+        },
+        "runtime": {
+          "lib/FakeData.dll": {}
+        }
+      },
+      "DigiturkTest.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DigiturkTest.Data": "1.0.0",
+          "FakeData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DigiturkTest.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigiturkTest.Common.dll": {}
+        }
+      },
+      "DigiturkTest.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DigiturkTest.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigiturkTest.Data.dll": {}
+        }
+      },
+      "DigiturkTest.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DigiturkTest.Common": "1.0.0",
+          "DigiturkTest.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DigiturkTest.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigiturkTest.Repository.dll": {}
+        }
+      },
+      "DigiturkTest.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DigiturkTest.Data": "1.0.0",
+          "DigiturkTest.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DigiturkTest.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigiturkTest.Service.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FakeData/1.0.0": {
+      "sha512": "hHp5a569gbVo7Fg/whOeDSFExhaB/cidqDTUTFxQDphsMeQhuS0AEyxfg1WunJz5W4ZOPdwEqhQJqEfUCnl9Ow==",
+      "type": "package",
+      "path": "fakedata/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fakedata.1.0.0.nupkg.sha512",
+        "fakedata.nuspec",
+        "lib/FakeData.dll",
+        "lib/FakeData.pdb"
+      ]
+    },
+    "DigiturkTest.Common/1.0.0": {
+      "type": "project",
+      "path": "../DigiturkTest.Common/DigiturkTest.Common.csproj",
+      "msbuildProject": "../DigiturkTest.Common/DigiturkTest.Common.csproj"
+    },
+    "DigiturkTest.Data/1.0.0": {
+      "type": "project",
+      "path": "../DigiturkTest.Data/DigiturkTest.Data.csproj",
+      "msbuildProject": "../DigiturkTest.Data/DigiturkTest.Data.csproj"
+    },
+    "DigiturkTest.Repository/1.0.0": {
+      "type": "project",
+      "path": "../DigiturkTest.Repository/DigiturkTest.Repository.csproj",
+      "msbuildProject": "../DigiturkTest.Repository/DigiturkTest.Repository.csproj"
+    },
+    "DigiturkTest.Service/1.0.0": {
+      "type": "project",
+      "path": "../DigiturkTest.Service/DigiturkTest.Service.csproj",
+      "msbuildProject": "../DigiturkTest.Service/DigiturkTest.Service.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DigiturkTest.Service >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ertuğrul Güler\\.nuget\\packages\\": {},
@@ -41,7 +139,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\DigiturkTest.Service.csproj": {
+              "projectPath": "C:\\Users\\Ertuğrul Güler\\source\\repos\\DigiturkTest\\DigiturkTest.Service\\DigiturkTest.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -74,5 +176,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FakeData 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "FakeData",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

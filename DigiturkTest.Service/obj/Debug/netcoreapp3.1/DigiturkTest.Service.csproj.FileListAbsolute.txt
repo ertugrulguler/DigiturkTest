@@ -1,0 +1,17 @@
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.csproj.AssemblyReference.cache
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.AssemblyInfoInputs.cache
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.AssemblyInfo.cs
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.csproj.CoreCompileInputs.cache
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Service.deps.json
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Service.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Service.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Common.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Data.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Repository.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Data.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Repository.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Common.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.csproj.CopyComplete
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.pdb
