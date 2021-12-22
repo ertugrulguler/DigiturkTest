@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DigiturkTest.Data\DigiturkTest.Data.csproj" />
     <ProjectReference Include="..\DigiturkTest.Repository\DigiturkTest.Repository.csproj" />
   </ItemGroup>

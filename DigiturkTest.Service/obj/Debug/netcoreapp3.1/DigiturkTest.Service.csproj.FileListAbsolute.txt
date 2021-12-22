@@ -12,6 +12,5 @@ C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Deb
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Data.pdb
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Repository.pdb
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\bin\Debug\netcoreapp3.1\DigiturkTest.Common.pdb
-C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.csproj.CopyComplete
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.dll
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Service\obj\Debug\netcoreapp3.1\DigiturkTest.Service.pdb

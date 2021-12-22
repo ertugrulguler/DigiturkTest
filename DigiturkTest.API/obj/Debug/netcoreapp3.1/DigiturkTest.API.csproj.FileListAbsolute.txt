@@ -28,3 +28,12 @@ C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\obj\Debug\n
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\obj\Debug\netcoreapp3.1\DigiturkTest.API.dll
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\obj\Debug\netcoreapp3.1\DigiturkTest.API.pdb
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\obj\Debug\netcoreapp3.1\DigiturkTest.API.genruntimeconfig.cache
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\obj\Debug\netcoreapp3.1\DigiturkTest.API.csproj.CopyComplete
