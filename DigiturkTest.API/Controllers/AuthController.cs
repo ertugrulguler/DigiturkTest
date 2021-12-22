@@ -25,6 +25,8 @@ namespace DigiturkTest.API.Controllers
         public async Task<IActionResult> Login(LoginRequestModel model)
         {
             var respose = await _loginManager.Login(model);
+            if (!respose.IsSuccess)
+                return Unauthorized();
             return Ok(respose);
         }
     }

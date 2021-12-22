@@ -26,8 +26,8 @@ namespace DigiturkTest.Service.Concrete
             if (validUser)
             {
                 
-                var token = (JwtSecurityToken)new TokenHelper(_appSettings).CreateToken(model.Username, model.Password);
-                return new LoginResponseModel() { IsSuccess = true, Token = token.RawData };
+                var token = new TokenHelper(_appSettings).CreateToken(model.Username, model.Password);
+                return new LoginResponseModel() { IsSuccess = true, Token = token };
             }
 
             return new LoginResponseModel() { IsSuccess = false, Token = null };

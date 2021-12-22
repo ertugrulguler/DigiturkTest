@@ -33,7 +33,6 @@ namespace DigiturkTest.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
             {
                 option.TokenValidationParameters = new TokenValidationParameters
@@ -42,12 +41,12 @@ namespace DigiturkTest.API
                     ValidateIssuer = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = Configuration["Token:Issuer"],
-                    ValidAudience = Configuration["Token:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Token:SecurityKey"])),
-                    ClockSkew = TimeSpan.Zero
+                    ValidIssuer = Configuration["AppSettings:Token:Issuer"],
+                    ValidAudience = Configuration["AppSettings:Token:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["AppSettings:Token:Secret"])),
                 };
             });
+            services.AddControllers();
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
             services.AddScoped<IMovieManager, MovieManager>();
             services.AddScoped<ILoginManager, LoginManager>();
@@ -60,9 +59,9 @@ namespace DigiturkTest.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                IdentityModelEventSource.ShowPII = true;
+                //IdentityModelEventSource.ShowPII = true;
             }
-
+            app.UseAuthentication();
             app.UseRouting();
 
             app.UseAuthorization();

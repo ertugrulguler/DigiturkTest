@@ -5,9 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DigiturkTest.Service.Abstract;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DigiturkTest.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MoviesController : ControllerBase
@@ -20,7 +22,7 @@ namespace DigiturkTest.API.Controllers
         [HttpGet("GetAllMovies")]
         public async Task<IActionResult> GetAllMovies()
         {
-            var movies = _movieManager.GetAllAsync();
+            var movies = await _movieManager.GetAllAsync();
             return Ok(movies);
         }
     }
