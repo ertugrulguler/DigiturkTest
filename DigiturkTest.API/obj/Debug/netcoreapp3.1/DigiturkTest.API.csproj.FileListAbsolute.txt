@@ -38,3 +38,8 @@ C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\n
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\nlog.config
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.API\obj\Debug\netcoreapp3.1\DigiturkTest.API.MvcApplicationPartsAssemblyInfo.cs
