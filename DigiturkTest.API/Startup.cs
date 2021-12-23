@@ -46,6 +46,7 @@ namespace DigiturkTest.API
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["AppSettings:Token:Secret"])),
                 };
             });
+            services.AddMemoryCache();
             services.AddControllers();
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
             services.AddScoped<IMovieManager, MovieManager>();
