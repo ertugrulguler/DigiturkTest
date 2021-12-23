@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using DigiturkTest.Data.Concrete.Entity;
+using DigiturkTest.Data.Enums;
 using DigiturkTest.Repository.Abstract;
 using DigiturkTest.Service.Abstract;
 
@@ -28,6 +29,11 @@ namespace DigiturkTest.Service.Concrete
         public async Task<Movie> GetByFilterAsync(Expression<Func<Movie, bool>> filter)
         {
             return await _movieRepository.GetByFilterAsync(filter);
+        }
+
+        public async Task<List<Movie>> GetMoviesByCategoryAsync(CategoryTypes category)
+        {
+            return await _movieRepository.GetMoviesByCategoryAsync(category);
         }
     }
 }

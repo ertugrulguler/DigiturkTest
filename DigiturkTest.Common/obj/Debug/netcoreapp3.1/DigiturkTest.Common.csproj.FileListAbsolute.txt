@@ -10,3 +10,4 @@ C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Common\obj\Debu
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Common\obj\Debug\netcoreapp3.1\DigiturkTest.Common.csproj.CoreCompileInputs.cache
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Common\obj\Debug\netcoreapp3.1\DigiturkTest.Common.dll
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Common\obj\Debug\netcoreapp3.1\DigiturkTest.Common.pdb
+C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Common\obj\Debug\netcoreapp3.1\DigiturkTest.Common.csproj.CopyComplete
