@@ -33,6 +33,7 @@
         "dependencies": {
           "DigiturkTest.Service": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.0.0",
+          "NLog": "4.7.13",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -480,6 +481,17 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.7.13": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.13.493"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -2698,6 +2710,13 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "NLog/4.7.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AvoGpCuq36B+0wY313XA6gC+YeMvk24rqF8P+HS9fInBGOjCzPjpXp2ln9ATZjPOJtXgHfc8zNmTjyswFGLxvg==",
+      "path": "nlog/4.7.13",
+      "hashPath": "nlog.4.7.13.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

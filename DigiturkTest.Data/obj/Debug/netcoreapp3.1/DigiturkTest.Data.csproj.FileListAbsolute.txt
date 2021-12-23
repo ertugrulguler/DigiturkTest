@@ -1,7 +1,6 @@
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Data\bin\Debug\netcoreapp3.1\DigiturkTest.Data.deps.json
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Data\bin\Debug\netcoreapp3.1\DigiturkTest.Data.dll
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Data\bin\Debug\netcoreapp3.1\DigiturkTest.Data.pdb
-C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Data\obj\Debug\netcoreapp3.1\DigiturkTest.Data.csproj.AssemblyReference.cache
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Data\obj\Debug\netcoreapp3.1\DigiturkTest.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Data\obj\Debug\netcoreapp3.1\DigiturkTest.Data.AssemblyInfoInputs.cache
 C:\Users\Ertuğrul Güler\source\repos\DigiturkTest\DigiturkTest.Data\obj\Debug\netcoreapp3.1\DigiturkTest.Data.AssemblyInfo.cs

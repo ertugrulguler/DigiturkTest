@@ -4,20 +4,23 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DigiturkTest.Common;
+using DigiturkTest.Common.Logging;
 using DigiturkTest.Repository.Abstract;
 using DigiturkTest.Repository.Concrete;
 using DigiturkTest.Service.Abstract;
 using DigiturkTest.Service.Concrete;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
+using ILogger = DigiturkTest.Common.Logging.ILogger;
+using ILoggerFactory = DigiturkTest.Common.Logging.ILoggerFactory;
 
 namespace DigiturkTest.API
 {
@@ -52,6 +55,10 @@ namespace DigiturkTest.API
             services.AddScoped<IMovieManager, MovieManager>();
             services.AddScoped<ILoginManager, LoginManager>();
             services.AddScoped<IMovieRepository, MovieRepository>();
+
+            //var serviceProvider = services.BuildServiceProvider();
+            //var logger = serviceProvider.GetService<ILogger<FileLogger>>();
+            //services.AddSingleton(typeof(ILogger), logger);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,6 +69,7 @@ namespace DigiturkTest.API
                 app.UseDeveloperExceptionPage();
                 //IdentityModelEventSource.ShowPII = true;
             }
+            //loggerFactory.AddProvider(new FileLogProvider());
             app.UseAuthentication();
             app.UseRouting();
 

@@ -9,6 +9,8 @@ using DigiturkTest.Data.Enums;
 using DigiturkTest.Service.Abstract;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
+using NLog;
 
 namespace DigiturkTest.API.Controllers
 {
@@ -19,7 +21,10 @@ namespace DigiturkTest.API.Controllers
     {
         private readonly IMovieManager _movieManager;
         private readonly IMemoryCache _memoryCache;
+        //private readonly ILogger<MoviesController> _logger;
         private readonly string movieCacheKey = "movieCacheKey";
+        private readonly Logger _logger = LogManager.GetCurrentClassLogger();
+
         public MoviesController(IMovieManager movieManager, IMemoryCache memoryCache)
         {
             _movieManager = movieManager;
@@ -28,6 +33,7 @@ namespace DigiturkTest.API.Controllers
         [HttpGet("GetAllMovies")]
         public async Task<IActionResult> GetAllMovies()
         {
+            _logger.Info("GetAllMovies started");
             List<Movie> movies = null;
             if (_memoryCache.TryGetValue(movieCacheKey, out movies))
             {
@@ -35,8 +41,11 @@ namespace DigiturkTest.API.Controllers
             }
 
             movies = await _movieManager.GetAllAsync();
+            _logger.Info("Chaching starting for Movies");
+
             _memoryCache.Set(movieCacheKey, movies, new MemoryCacheEntryOptions()
             {
+
                 AbsoluteExpiration = DateTimeOffset.Now.AddHours(1),
                 Priority = CacheItemPriority.Normal
             });
