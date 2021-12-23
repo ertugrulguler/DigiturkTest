@@ -9,8 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DigiturkTest.API.Handler.ExceptionHandler;
 using DigiturkTest.Common;
-using DigiturkTest.Common.Logging;
 using DigiturkTest.Repository.Abstract;
 using DigiturkTest.Repository.Concrete;
 using DigiturkTest.Service.Abstract;
@@ -19,8 +19,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
-using ILogger = DigiturkTest.Common.Logging.ILogger;
-using ILoggerFactory = DigiturkTest.Common.Logging.ILoggerFactory;
 
 namespace DigiturkTest.API
 {
@@ -70,6 +68,7 @@ namespace DigiturkTest.API
                 //IdentityModelEventSource.ShowPII = true;
             }
             //loggerFactory.AddProvider(new FileLogProvider());
+            app.UseMiddleware<Middleware>();
             app.UseAuthentication();
             app.UseRouting();
 
